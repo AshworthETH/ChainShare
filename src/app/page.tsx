@@ -21,6 +21,21 @@ export default function Home() {
             <p>Control who can access your files using smart contracts</p>
           </div>
         </div>
+
+        <div className="mt-8 space-x-4">
+          <a
+            href="/upload"
+            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+          >
+            Upload File
+          </a>
+          <a
+            href="/files"
+            className="inline-block bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700"
+          >
+            My Files
+          </a>
+        </div>
       </div>
     </main>
   )
